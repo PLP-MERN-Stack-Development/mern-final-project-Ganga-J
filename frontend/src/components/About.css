@@ -1,0 +1,164 @@
+.about {
+  min-height: 100vh;
+}
+
+/* About Hero */
+.about-hero {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  padding: 100px 0 80px;
+  text-align: center;
+}
+
+.about-hero .section-header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.about-hero .section-header p {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Goals Section */
+.goals-section {
+  padding: 80px 0;
+  background: #f8f9fa;
+}
+
+.goals-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+}
+
+.goal-card {
+  background: white;
+  padding: 40px 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.goal-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.goal-icon {
+  width: 80px;
+  height: 80px;
+  background: linear-gradient(135deg, #3498db, #2980b9);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+  font-size: 2rem;
+  color: white;
+}
+
+.goal-card h3 {
+  font-size: 1.3rem;
+  color: #2c3e50;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.goal-card p {
+  color: #666;
+  line-height: 1.6;
+}
+
+/* Impact Section */
+.impact-section {
+  padding: 80px 0;
+  background: white;
+}
+
+.impact-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
+}
+
+.impact-text h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 30px;
+}
+
+.impact-text p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.impact-visual {
+  display: flex;
+  justify-content: center;
+}
+
+.impact-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.impact-stat {
+  text-align: center;
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  border-left: 4px solid #3498db;
+}
+
+.stat-number {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #3498db;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #666;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-hero .section-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .goals-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .impact-content {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    text-align: center;
+  }
+
+  .impact-text h2 {
+    font-size: 2rem;
+  }
+
+  .impact-stats {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .impact-stat {
+    flex: 1;
+    min-width: 150px;
+  }
+}

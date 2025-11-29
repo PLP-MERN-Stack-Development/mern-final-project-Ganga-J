@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaGuard - SDG 6: Clean Water & Sanitation</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <i class="fas fa-water"></i>
+                <span>AquaGuard</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About SDG 6</a></li>
+                <li><a href="#statistics">Statistics</a></li>
+                <li><a href="#calculator">Calculator</a></li>
+                <li><a href="#tips">Tips</a></li>
+                <li><a href="#pledge">Take Pledge</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Every Drop <span class="highlight">Counts</span></h1>
+                <p>Join the global movement to ensure clean water and sanitation for all. Together, we can achieve Sustainable Development Goal 6 by 2030.</p>
+                <div class="hero-buttons">
+                    <a href="#calculator" class="btn btn-primary">Calculate Your Usage</a>
+                    <a href="#pledge" class="btn btn-secondary">Take the Pledge</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="water-drop">
+                    <div class="drop-inner">
+                        <span class="counter" data-target="2200000000">0</span>
+                        <p>People lack safe drinking water</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wave-container">
+            <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
+                <path fill="#ffffff" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,122.7C672,117,768,139,864,154.7C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- About SDG 6 Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>About <span class="highlight">SDG 6</span></h2>
+                <p>Understanding the global water crisis and our commitment to change</p>
+            </div>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>Clean Water Access</h3>
+                    <p>Ensure universal and equitable access to safe and affordable drinking water for all by 2030.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-toilet"></i>
+                    </div>
+                    <h3>Sanitation & Hygiene</h3>
+                    <p>Achieve access to adequate and equitable sanitation and hygiene for all, ending open defecation.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-recycle"></i>
+                    </div>
+                    <h3>Water Quality</h3>
+                    <p>Improve water quality by reducing pollution, eliminating dumping, and minimizing release of hazardous chemicals.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-hand-holding-water"></i>
+                    </div>
+                    <h3>Water Efficiency</h3>
+                    <p>Substantially increase water-use efficiency across all sectors and ensure sustainable withdrawals.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                    <h3>Ecosystem Protection</h3>
+                    <p>Protect and restore water-related ecosystems, including mountains, forests, wetlands, and rivers.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">
+                        <i class="fas fa-globe-africa"></i>
+                    </div>
+                    <h3>International Cooperation</h3>
+                    <p>Support developing countries in water and sanitation-related activities and programs.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="statistics" class="statistics-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Global Water <span class="highlight">Statistics</span></h2>
+                <p>The numbers that define our water crisis</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number" data-target="2200">0</div>
+                    <div class="stat-unit">Million</div>
+                    <div class="stat-label">People without safe drinking water</div>
+                    <div class="stat-bar">
+                        <div class="stat-progress" data-width="29"></div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-toilet-paper"></i>
+                    </div>
+                    <div class="stat-number" data-target="4200">0</div>
+                    <div class="stat-unit">Million</div>
+                    <div class="stat-label">People without safe sanitation</div>
+                    <div class="stat-bar">
+                        <div class="stat-progress" data-width="55"></div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-hand-sparkles"></i>
+                    </div>
+                    <div class="stat-number" data-target="3000">0</div>
+                    <div class="stat-unit">Million</div>
+                    <div class="stat-label">People without handwashing facilities</div>
+                    <div class="stat-bar">
+                        <div class="stat-progress" data-width="40"></div>
+                    </div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-skull-crossbones"></i>
+                    </div>
+                    <div class="stat-number" data-target="829000">0</div>
+                    <div class="stat-unit">Deaths/Year</div>
+                    <div class="stat-label">From unsafe water & sanitation</div>
+                    <div class="stat-bar">
+                        <div class="stat-progress" data-width="100"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="chart-container">
+                <h3>Water Stress by Region</h3>
+                <div class="region-bars">
+                    <div class="region-bar">
+                        <span class="region-name">Middle East & North Africa</span>
+                        <div class="bar-container">
+                            <div class="bar" data-width="83"></div>
+                        </div>
+                        <span class="bar-value">83%</span>
+                    </div>
+                    <div class="region-bar">
+                        <span class="region-name">South Asia</span>
+                        <div class="bar-container">
+                            <div class="bar" data-width="74"></div>
+                        </div>
+                        <span class="bar-value">74%</span>
+                    </div>
+                    <div class="region-bar">
+                        <span class="region-name">Central Asia</span>
+                        <div class="bar-container">
+                            <div class="bar" data-width="66"></div>
+                        </div>
+                        <span class="bar-value">66%</span>
+                    </div>
+                    <div class="region-bar">
+                        <span class="region-name">East Asia</span>
+                        <div class="bar-container">
+                            <div class="bar" data-width="42"></div>
+                        </div>
+                        <span class="bar-value">42%</span>
+                    </div>
+                    <div class="region-bar">
+                        <span class="region-name">Sub-Saharan Africa</span>
+                        <div class="bar-container">
+                            <div class="bar" data-width="35"></div>
+                        </div>
+                        <span class="bar-value">35%</span>
+                    </div>
+                    <div class="region-bar">
+                        <span class="region-name">Latin America</span>
+                        <div class="bar-container">
+                            <div class="bar" data-width="22"></div>
+                        </div>
+                        <span class="bar-value">22%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Water Calculator Section -->
+    <section id="calculator" class="calculator-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Water Usage <span class="highlight">Calculator</span></h2>
+                <p>Discover your daily water footprint and learn how to reduce it</p>
+            </div>
+            <div class="calculator-container">
+                <div class="calculator-form">
+                    <div class="form-group">
+                        <label><i class="fas fa-shower"></i> Shower Duration (minutes/day)</label>
+                        <input type="range" id="shower" min="0" max="30" value="10">
+                        <span class="range-value" id="shower-value">10 min</span>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-toilet"></i> Toilet Flushes (per day)</label>
+                        <input type="range" id="toilet" min="0" max="15" value="6">
+                        <span class="range-value" id="toilet-value">6 times</span>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-faucet"></i> Faucet Usage (minutes/day)</label>
+                        <input type="range" id="faucet" min="0" max="30" value="8">
+                        <span class="range-value" id="faucet-value">8 min</span>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-tshirt"></i> Laundry Loads (per week)</label>
+                        <input type="range" id="laundry" min="0" max="14" value="3">
+                        <span class="range-value" id="laundry-value">3 loads</span>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-utensils"></i> Dishwasher Loads (per week)</label>
+                        <input type="range" id="dishwasher" min="0" max="14" value="5">
+                        <span class="range-value" id="dishwasher-value">5 loads</span>
+                    </div>
+                    <div class="form-group">
+                        <label><i class="fas fa-car"></i> Car Washes (per month)</label>
+                        <input type="range" id="carwash" min="0" max="8" value="2">
+                        <span class="range-value" id="carwash-value">2 times</span>
+                    </div>
+                </div>
+                <div class="calculator-results">
+                    <div class="result-card main-result">
+                        <h3>Your Daily Water Usage</h3>
+                        <div class="result-number">
+                            <span id="total-usage">0</span>
+                            <span class="unit">Liters/Day</span>
+                        </div>
+                        <div class="result-comparison">
+                            <p>Global Average: <strong>150 L/day</strong></p>
+                        </div>
+                    </div>
+                    <div class="result-breakdown">
+                        <h4>Usage Breakdown</h4>
+                        <div class="breakdown-item">
+                            <span class="breakdown-label"><i class="fas fa-shower"></i> Shower</span>
+                            <span class="breakdown-value" id="shower-usage">0 L</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-label"><i class="fas fa-toilet"></i> Toilet</span>
+                            <span class="breakdown-value" id="toilet-usage">0 L</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-label"><i class="fas fa-faucet"></i> Faucet</span>
+                            <span class="breakdown-value" id="faucet-usage">0 L</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-label"><i class="fas fa-tshirt"></i> Laundry</span>
+                            <span class="breakdown-value" id="laundry-usage">0 L</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-label"><i class="fas fa-utensils"></i> Dishwasher</span>
+                            <span class="breakdown-value" id="dishwasher-usage">0 L</span>
+                        </div>
+                        <div class="breakdown-item">
+                            <span class="breakdown-label"><i class="fas fa-car"></i> Car Wash</span>
+                            <span class="breakdown-value" id="carwash-usage">0 L</span>
+                        </div>
+                    </div>
+                    <div class="result-rating" id="rating-container">
+                        <div class="rating-icon" id="rating-icon">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <p id="rating-text">Calculate to see your rating</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tips Section -->
+    <section id="tips" class="tips-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Water Conservation <span class="highlight">Tips</span></h2>
+                <p>Simple changes that make a big difference</p>
+            </div>
+            <div class="tips-filter">
+                <button class="filter-btn active" data-filter="all">All Tips</button>
+                <button class="filter-btn" data-filter="bathroom">Bathroom</button>
+                <button class="filter-btn" data-filter="kitchen">Kitchen</button>
+                <button class="filter-btn" data-filter="outdoor">Outdoor</button>
+                <button class="filter-btn" data-filter="lifestyle">Lifestyle</button>
+            </div>
+            <div class="tips-grid">
+                <div class="tip-card" data-category="bathroom">
+                    <div class="tip-icon">
+                        <i class="fas fa-shower"></i>
+                    </div>
+                    <h3>Shorter Showers</h3>
+                    <p>Reduce shower time by 2 minutes to save up to 40 liters of water per shower.</p>
+                    <div class="tip-savings">
+                        <span class="savings-badge">Save 40L/shower</span>
+                    </div>
+                </div>
+                <div class="tip-card" data-category="bathroom">
+                    <div class="tip-icon">
+                        <i class="fas fa-tooth"></i>
+                    </div>
+                    <h3>Turn Off While Brushing</h3>
+                    <p>Turn off the tap while brushing teeth. This simple act saves up to 12 liters per minute.</p>
+                    <div class="tip-savings">
+                        <span class="savings-badge">Save 24L/day</span>
+                    </div>
+                </div>
+                <div class="tip-card" data-category="bathroom">
+                    <div class="tip-icon">
+                        <i class="fas fa-toilet"></i>
+                    </div>
+                    <h3>Fix Leaky Toilets</h3>
+                    <p>A leaky toilet can waste up to 750 liters per day. Check and fix leaks promptly.</p>
+                    <div class="tip-savings">
+                        <span class="savings-badge">Save 750L/day</span>
+                    </div>
+                </div>
+                <div class="tip-card" data-category="kitchen">
+                    <div class="tip-icon">
+                        <i class="fas fa-sink"></i>
+                    </div>
+                    <h3>Full Dishwasher Loads</h3>
+                    <p>Only run the dishwasher when full. This maximizes water efficiency per dish.</p>
+                    <div class="tip-savings">
+                        <span class="savings-badge">Save 20L/load</span>
+                    </div>
+                </div>
+                <div class="tip-card" data-category="kitchen">
+                    <div class="tip-icon">
+                        <i class="fas fa-carrot"></i>
+                    </div>
+                    <h3>Wash Produce in Bowl</h3>
+                    <p>Use a bowl to wash fruits and vegetables instead of running water.</p>
+                    <div class="tip-savings">
+                        <span class="savings-badge">Save 10L/wash</span>
+                    </div>
+                </div>
+                <div class="tip-card" data-category="kitchen">
+                    <div class="tip-icon">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <h3>Boil Only What You Need</h3>
+                    <p>Only boil the amount of water you need for tea or cooking.</p>
+                    <div class="tip-savings">
+                        <span class="savings-badge">Save 5L/day</span>
+                    </div>
+                </div>
+                <div class="tip-card" data-category="outdoor">
+                    <div class="tip-icon">
+                        <i class="fas fa-seedling"></i>
+                    </div>
+                    <h3>Water Plants Wisely</h3>
+                    <p>Water plants early morning or evening to reduce evaporation by up to 30%.</p>
+                    <div class="tip-savings">
+                        <span class="savings-badge">Save 30% water</span>
+                    </div>
+                </div>
+                <div class="tip-card" data-category="outdoor">
+                    <div class="tip-icon">
+                        <i class="fas fa-cloud-rain"></i>
+                    </div>
+                    <h3>Collect Rainwater</h3>
+                    <p>Install rain barrels to collect water for gardening and outdoor cleaning.</p>
+                    <div class="tip-savings">
+                        <span class="savings-badge">Save 5000L/year</span>
+                    </div>
+                </div>
+                <div class="tip-card" data-category="outdoor">
+                    <div class="tip-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>Use a Bucket for Car</h3>
+                    <p>Wash your car with a bucket instead of a hose to save significant water.</p>
+                    <div class="tip-savings">
+                        <span class="savings-badge">Save 300L/wash</span>
+                    </div>
+                </div>
+                <div class="tip-card" data-category="lifestyle">
+                    <div class="tip-icon">
+                        <i class="fas fa-tshirt"></i>
+                    </div>
+                    <h3>Full Laundry Loads</h3>
+                    <p>Wait for a full load before running the washing machine.</p>
+                    <div class="tip-savings">
+                        <span class="savings-badge">Save 50L/load</span>
+                    </div>
+                </div>
+                <div class="tip-card" data-category="lifestyle">
+                    <div class="tip-icon">
+                        <i class="fas fa-hamburger"></i>
+                    </div>
+                    <h3>Reduce Meat Consumption</h3>
+                    <p>Producing 1kg of beef requires 15,000 liters of water. Consider plant-based alternatives.</p>
+                    <div class="tip-savings">
+                        <span class="savings-badge">Save 15000L/kg</span>
+                    </div>
+                </div>
+                <div class="tip-card" data-category="lifestyle">
+                    <div class="tip-icon">
+                        <i class="fas fa-shopping-bag"></i>
+                    </div>
+                    <h3>Buy Sustainable Products</h3>
+                    <p>Choose products from companies committed to water conservation.</p>
+                    <div class="tip-savings">
+                        <span class="savings-badge">Impact varies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pledge Section -->
+    <section id="pledge" class="pledge-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Take the <span class="highlight">Water Pledge</span></h2>
+                <p>Commit to making a difference in water conservation</p>
+            </div>
+            <div class="pledge-container">
+                <div class="pledge-form-container">
+                    <form id="pledge-form" class="pledge-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label>Select Your Pledges</label>
+                            <div class="pledge-options">
+                                <label class="pledge-option">
+                                    <input type="checkbox" name="pledges" value="shorter-showers">
+                                    <span class="checkmark"></span>
+                                    <span class="pledge-text">Take shorter showers (under 5 minutes)</span>
+                                </label>
+                                <label class="pledge-option">
+                                    <input type="checkbox" name="pledges" value="fix-leaks">
+                                    <span class="checkmark"></span>
+                                    <span class="pledge-text">Fix all water leaks in my home</span>
+                                </label>
+                                <label class="pledge-option">
+                                    <input type="checkbox" name="pledges" value="full-loads">
+                                    <span class="checkmark"></span>
+                                    <span class="pledge-text">Only run full loads of laundry/dishes</span>
+                                </label>
+                                <label class="pledge-option">
+                                    <input type="checkbox" name="pledges" value="turn-off-tap">
+                                    <span class="checkmark"></span>
+                                    <span class="pledge-text">Turn off tap while brushing teeth</span>
+                                </label>
+                                <label class="pledge-option">
+                                    <input type="checkbox" name="pledges" value="rainwater">
+                                    <span class="checkmark"></span>
+                                    <span class="pledge-text">Collect and use rainwater</span>
+                                </label>
+                                <label class="pledge-option">
+                                    <input type="checkbox" name="pledges" value="spread-awareness">
+                                    <span class="checkmark"></span>
+                                    <span class="pledge-text">Spread awareness about water conservation</span>
+                                </label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-hand-holding-water"></i> Take the Pledge
+                        </button>
+                    </form>
+                </div>
+                <div class="pledge-stats">
+                    <div class="pledge-counter">
+                        <div class="counter-number" id="pledge-count">1,247</div>
+                        <p>People have taken the pledge</p>
+                    </div>
+                    <div class="pledge-impact">
+                        <h4>Collective Impact</h4>
+                        <div class="impact-item">
+                            <i class="fas fa-tint"></i>
+                            <span><strong id="water-saved">2.5M</strong> Liters saved monthly</span>
+                        </div>
+                        <div class="impact-item">
+                            <i class="fas fa-globe"></i>
+                            <span><strong>45</strong> Countries represented</span>
+                        </div>
+                        <div class="impact-item">
+                            <i class="fas fa-tree"></i>
+                            <span><strong>500+</strong> Communities reached</span>
+                        </div>
+                    </div>
+                    <div class="recent-pledges">
+                        <h4>Recent Pledges</h4>
+                        <div class="pledge-list" id="recent-pledges">
+                            <div class="pledge-item">
+                                <div class="pledge-avatar">JD</div>
+                                <div class="pledge-info">
+                                    <span class="pledge-name">John D.</span>
+                                    <span class="pledge-time">2 minutes ago</span>
+                                </div>
+                            </div>
+                            <div class="pledge-item">
+                                <div class="pledge-avatar">SM</div>
+                                <div class="pledge-info">
+                                    <span class="pledge-name">Sarah M.</span>
+                                    <span class="pledge-time">5 minutes ago</span>
+                                </div>
+                            </div>
+                            <div class="pledge-item">
+                                <div class="pledge-avatar">AK</div>
+                                <div class="pledge-info">
+                                    <span class="pledge-name">Ahmed K.</span>
+                                    <span class="pledge-time">12 minutes ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section id="resources" class="resources-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Learn <span class="highlight">More</span></h2>
+                <p>Resources to deepen your understanding of SDG 6</p>
+            </div>
+            <div class="resources-grid">
+                <a href="https://www.un.org/sustainabledevelopment/water-and-sanitation/" target="_blank" class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>UN SDG 6 Portal</h3>
+                    <p>Official United Nations resource for SDG 6</p>
+                </a>
+                <a href="https://www.who.int/health-topics/water-sanitation-and-hygiene-wash" target="_blank" class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <h3>WHO WASH</h3>
+                    <p>World Health Organization water & sanitation resources</p>
+                </a>
+                <a href="https://www.worldwatercouncil.org/" target="_blank" class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3>World Water Council</h3>
+                    <p>International water policy think tank</p>
+                </a>
+                <a href="https://www.wateraid.org/" target="_blank" class="resource-card">
+                    <div class="resource-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>WaterAid</h3>
+                    <p>International nonprofit focused on water access</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <i class="fas fa-water"></i>
+                        <span>AquaGuard</span>
+                    </div>
+                    <p>Empowering individuals to make a difference in global water conservation. Together, we can achieve SDG 6 by 2030.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About SDG 6</a></li>
+                        <li><a href="#statistics">Statistics</a></li>
+                        <li><a href="#calculator">Calculator</a></li>
+                        <li><a href="#tips">Tips</a></li>
+                        <li><a href="#pledge">Take Pledge</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>SDG Goals</h4>
+                    <ul>
+                        <li><a href="#">Clean Water Access</a></li>
+                        <li><a href="#">Sanitation for All</a></li>
+                        <li><a href="#">Water Quality</a></li>
+                        <li><a href="#">Water Efficiency</a></li>
+                        <li><a href="#">Ecosystem Protection</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Stay Updated</h4>
+                    <p>Subscribe to our newsletter for water conservation tips and updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Enter your email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 AquaGuard. All rights reserved. | Supporting UN Sustainable Development Goal 6</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Success Modal -->
+    <div class="modal" id="success-modal">
+        <div class="modal-content">
+            <div class="modal-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h3>Thank You for Your Pledge!</h3>
+            <p>You've joined <span id="modal-count">1,248</span> water warriors committed to making a difference.</p>
+            <div class="modal-share">
+                <p>Share your commitment:</p>
+                <div class="share-buttons">
+                    <button class="share-btn facebook"><i class="fab fa-facebook-f"></i></button>
+                    <button class="share-btn twitter"><i class="fab fa-twitter"></i></button>
+                    <button class="share-btn whatsapp"><i class="fab fa-whatsapp"></i></button>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="closeModal()">Continue</button>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
